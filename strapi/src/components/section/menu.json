@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_section_menus",
+  "info": {
+    "displayName": "menu"
+  },
+  "options": {},
+  "attributes": {
+    "logo_link": {
+      "type": "text",
+      "required": true
+    },
+    "logo_text": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255,
+      "minLength": 3
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
